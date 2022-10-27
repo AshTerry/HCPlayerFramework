@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		192709CE5711CAF63C7E83C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3D9B09F909F91F5C4D573B36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		192709CE5711CAF63C7E83C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3D9B09F909F91F5C4D573B36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		52388CCAC4486D88DD1FB29A /* Pods-HCPlayerFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPlayerFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-HCPlayerFramework_Tests/Pods-HCPlayerFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5ACFF17B8B24BAD026C42FDC /* Pods_HCPlayerFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCPlayerFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* HCPlayerFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCPlayerFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		802F6358AFC83EF892F9DDB2 /* Pods-HCPlayerFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPlayerFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HCPlayerFramework_Tests/Pods-HCPlayerFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		84B92F8C79F3D375DCF53E12 /* HCPlayerFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HCPlayerFramework.podspec; path = ../HCPlayerFramework.podspec; sourceTree = "<group>"; };
+		84B92F8C79F3D375DCF53E12 /* HCPlayerFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HCPlayerFramework.podspec; path = ../HCPlayerFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0043ED8854D8C4947A1FCB5 /* Pods-HCPlayerFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPlayerFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-HCPlayerFramework_Example/Pods-HCPlayerFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A889BEA44A1AE6C6CA04C0E7 /* Pods-HCPlayerFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPlayerFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-HCPlayerFramework_Example/Pods-HCPlayerFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED6955560F8882204CF8E006 /* Pods_HCPlayerFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCPlayerFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				802F6358AFC83EF892F9DDB2 /* Pods-HCPlayerFramework_Tests.debug.xcconfig */,
 				52388CCAC4486D88DD1FB29A /* Pods-HCPlayerFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,11 +269,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HCPlayerFramework_Example/Pods-HCPlayerFramework_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HCPlayerFramework/HCPlayerFramework.framework",
+				"${PODS_ROOT}/../../HCPlayerFramework/Frameworks/HCAudioPlayer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCPlayerFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCAudioPlayer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

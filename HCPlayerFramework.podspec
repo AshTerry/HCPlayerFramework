@@ -21,17 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/chenzhen/HCPlayerFramework'
+  s.homepage         = 'https://github.com/AshTerry/HCPlayerFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chenzhen' => 'chenzhen@huicheng.cn' }
-  s.source           = { :git => 'https://github.com/chenzhen/HCPlayerFramework.git', :tag => s.version.to_s }
+  s.author           = { 'hc' => 'hc@hc.cn' }
+  s.source           = { :git => 'https://github.com/AshTerry/HCPlayerFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'HCPlayerFramework/Classes/**/*'
   
+  s.ios.vendored_frameworks = 'HCPlayerFramework/Frameworks/HCAudioPlayer.framework'
+
   # s.resource_bundles = {
   #   'HCPlayerFramework' => ['HCPlayerFramework/Assets/*.png']
   # }

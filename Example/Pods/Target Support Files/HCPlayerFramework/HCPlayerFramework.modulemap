@@ -1,0 +1,6 @@
+framework module HCPlayerFramework {
+  umbrella header "HCPlayerFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

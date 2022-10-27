@@ -1,0 +1,11 @@
+framework module HCAudioPlayer {
+  umbrella header "HCAudioPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module HCAudioPlayer.Swift {
+  header "HCAudioPlayer-Swift.h"
+  requires objc
+}

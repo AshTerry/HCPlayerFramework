@@ -1,0 +1,16 @@
+PODS:
+  - HCPlayerFramework (0.1.0)
+
+DEPENDENCIES:
+  - HCPlayerFramework (from `../`)
+
+EXTERNAL SOURCES:
+  HCPlayerFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HCPlayerFramework: efeb380021bdee89225aacc6c4425bc2e817857a
+
+PODFILE CHECKSUM: 4ca7df176075d9ccf96d40024c229312d7be3b72
+
+COCOAPODS: 1.11.2

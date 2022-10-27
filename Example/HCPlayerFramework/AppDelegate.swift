@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  HCPlayerFramework
 //
-//  Created by chenzhen on 10/27/2022.
-//  Copyright (c) 2022 chenzhen. All rights reserved.
+//  Created by hc on 10/27/2022.
+//  Copyright (c) 2022 hc. All rights reserved.
 //
 
 import UIKit

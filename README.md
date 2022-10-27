@@ -1,6 +1,6 @@
 # HCPlayerFramework
 
-[![CI Status](https://img.shields.io/travis/chenzhen/HCPlayerFramework.svg?style=flat)](https://travis-ci.org/chenzhen/HCPlayerFramework)
+[![CI Status](https://img.shields.io/travis/hc/HCPlayerFramework.svg?style=flat)](https://travis-ci.org/hc/HCPlayerFramework)
 [![Version](https://img.shields.io/cocoapods/v/HCPlayerFramework.svg?style=flat)](https://cocoapods.org/pods/HCPlayerFramework)
 [![License](https://img.shields.io/cocoapods/l/HCPlayerFramework.svg?style=flat)](https://cocoapods.org/pods/HCPlayerFramework)
 [![Platform](https://img.shields.io/cocoapods/p/HCPlayerFramework.svg?style=flat)](https://cocoapods.org/pods/HCPlayerFramework)
@@ -22,7 +22,7 @@ pod 'HCPlayerFramework'
 
 ## Author
 
-chenzhen, chenzhen@huicheng.cn
+hc, hc@huicheng.cn
 
 ## License
 
