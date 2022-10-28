@@ -1,0 +1,72 @@
+{
+    "maxTracks": 5,
+    "loopTracks": [1, 2, 3, 4],
+    "duration": 20,
+    "plans": [{
+        "audioUrl":"https://hcxlyun.cn/audio/HC_Audio_Server/55a9d98d-24d7-4ec0-b7aa-82a50d4f3d84.mp3",
+        "operation":1,
+        "volume":1,
+        "audioTrack":1,
+        "planSeconds":0,
+        "fileNameWithExtension":"55a9d98d-24d7-4ec0-b7aa-82a50d4f3d84.mp3"
+      },
+      {
+        "audioUrl":"https://hcxlyun.cn/audio/HC_Audio_Server/ef145741-8f19-42b9-bf82-81f4ae2a6750.mp3",
+        "operation":1,
+        "volume":1,
+        "audioTrack":1,
+        "planSeconds":25,
+        "fileNameWithExtension":"ef145741-8f19-42b9-bf82-81f4ae2a6750.mp3"
+      },
+      {
+        "audioUrl":"https://hcxlyun.cn/audio/HC_Audio_Server/113b3212-07de-4bc4-bf24-6e81988039dc.mp3",
+        "operation":1,
+        "volume":1,
+        "audioTrack":1,
+        "planSeconds":115,
+        "fileNameWithExtension":"113b3212-07de-4bc4-bf24-6e81988039dc.mp3"
+      },
+      {
+        "audioUrl":"https://hcxlyun.cn/audio/HC_Audio_Server/6ab4d1a7-8e0b-40ec-9d16-02dbd7f3928f.mp3",
+        "operation":1,
+        "volume":1,
+        "audioTrack":1,
+        "planSeconds":189,
+        "fileNameWithExtension":"6ab4d1a7-8e0b-40ec-9d16-02dbd7f3928f.mp3"
+      },
+      {
+        "audioUrl":"https://hcxlyun.cn/audio/HC_Audio_Server/3201ea6d-2e01-4d8e-a06a-a37ef8a1f2ca.mp3",
+        "operation":1,
+        "volume":1,
+        "audioTrack":1,
+        "planSeconds":263,
+        "fileNameWithExtension":"3201ea6d-2e01-4d8e-a06a-a37ef8a1f2ca.mp3"
+      },
+      {
+        "audioUrl":"https://hcxlyun.cn/audio/HC_Audio_Server/2d9469a6-27fc-4829-a07b-a3008febf4ef.mp3",
+        "operation":1,
+        "volume":1,
+        "audioTrack":1,
+        "planSeconds":299,
+        "fileNameWithExtension":"2d9469a6-27fc-4829-a07b-a3008febf4ef.mp3"
+      },
+      {
+        "audioUrl":"https://hcxlyun.cn/audio/HC_Audio_Server/7202b02c-fc37-4471-a4fc-a8d9fad681bd.mp3",
+        "operation":1,
+        "volume":1,
+        "audioTrack":1,
+        "planSeconds":410,
+        "fileNameWithExtension":"7202b02c-fc37-4471-a4fc-a8d9fad681bd.mp3"
+      },
+      {
+        "audioUrl":"https://hcxlyun.cn/audio/HC_Audio_Server/dd3db6c7-5732-46a7-8ea0-08ea35a07446.mp3",
+        "operation":1,
+        "volume":1,
+        "audioTrack":1,
+        "planSeconds":531,
+        "fileNameWithExtension":"dd3db6c7-5732-46a7-8ea0-08ea35a07446.mp3"
+      }],
+    "logo": "http://nwzimg.wezhan.cn/contents/sitefiles2019/10097787/images/1497059.png",
+    "title": "hc_player",
+    "subTitle": "Therapy"
+}

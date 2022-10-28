@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47662A79290BA8E40075FB89 /* plan.json in Resources */ = {isa = PBXBuildFile; fileRef = 47662A78290BA8E40075FB89 /* plan.json */; };
+		47662A7A290BA8F30075FB89 /* plan.json in Resources */ = {isa = PBXBuildFile; fileRef = 47662A78290BA8E40075FB89 /* plan.json */; };
+		47662A7B290BA91D0075FB89 /* plan.json in Frameworks */ = {isa = PBXBuildFile; fileRef = 47662A78290BA8E40075FB89 /* plan.json */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +33,7 @@
 /* Begin PBXFileReference section */
 		192709CE5711CAF63C7E83C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D9B09F909F91F5C4D573B36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		47662A78290BA8E40075FB89 /* plan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plan.json; sourceTree = "<group>"; };
 		52388CCAC4486D88DD1FB29A /* Pods-HCPlayerFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPlayerFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-HCPlayerFramework_Tests/Pods-HCPlayerFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5ACFF17B8B24BAD026C42FDC /* Pods_HCPlayerFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCPlayerFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* HCPlayerFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCPlayerFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3296F40F36AE58E8A40C081 /* Pods_HCPlayerFramework_Example.framework in Frameworks */,
+				47662A7B290BA91D0075FB89 /* plan.json in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +77,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				47662A78290BA8E40075FB89 /* plan.json */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for HCPlayerFramework */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -212,10 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4943MQ5622;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4943MQ5622;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -246,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47662A79290BA8E40075FB89 /* plan.json in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -256,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47662A7A290BA8F30075FB89 /* plan.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,10 +488,11 @@
 			baseConfigurationReference = A0043ED8854D8C4947A1FCB5 /* Pods-HCPlayerFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4943MQ5622;
 				INFOPLIST_FILE = HCPlayerFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ash.test001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +504,11 @@
 			baseConfigurationReference = A889BEA44A1AE6C6CA04C0E7 /* Pods-HCPlayerFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4943MQ5622;
 				INFOPLIST_FILE = HCPlayerFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ash.test001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -507,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 802F6358AFC83EF892F9DDB2 /* Pods-HCPlayerFramework_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4943MQ5622;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -517,7 +530,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ash.test001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -529,13 +542,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52388CCAC4486D88DD1FB29A /* Pods-HCPlayerFramework_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4943MQ5622;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ash.test001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

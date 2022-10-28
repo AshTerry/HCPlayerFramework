@@ -264,8 +264,9 @@ SWIFT_PROTOCOL("_TtP13HCAudioPlayer17CacheFileDelegate_")
 
 SWIFT_PROTOCOL("_TtP13HCAudioPlayer16HCPlayerDelegate_")
 @protocol HCPlayerDelegate <CacheFileDelegate>
-- (void)onTickWithTick:(NSInteger)tick;
-- (void)onTimeUp;
+- (void)onPlayerStopWithPlayer:(Player * _Nonnull)player;
+- (void)onPlayerPausedWithPlayer:(Player * _Nonnull)player;
+- (void)onPlayerStartedWithPlayer:(Player * _Nonnull)player;
 @end
 
 
